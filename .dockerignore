@@ -1,0 +1,20 @@
+# Nested
+**/node_modules
+**/test
+**/Dockerfile
+
+# Other
+.eslintrc.json
+.DS_Store
+.vscode
+front/public/mock
+data
+doc
+external
+resources
+.git
+.env
+.env.test
+.env.*.test
+.env.local
+.env.*.local

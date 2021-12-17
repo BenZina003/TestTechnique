@@ -1,0 +1,53 @@
+.v-data-table {
+	.v-data-table-header {
+		th {
+			white-space: nowrap !important;
+			color: $blue-02 !important;
+			text-transform: uppercase;
+			font-size: 10px !important;
+			font-weight: 900;
+			padding: 0 8px !important;
+			.v-data-table-header__icon {
+				font-size: 11px !important;
+				color: $blue-02 !important;
+				margin-top: -3px;
+				margin-left: 2px;
+			}
+		}
+	}
+	tr {
+		td {
+			font-size: 13px !important;
+			color: $grey-09 !important;
+			font-family: 'Roboto Mono', monospace !important;
+		}
+	}
+}
+
+
+// .v-data-table-header tr th {
+//   vertical-align: top;
+// }
+
+// .text-blue {
+//   font-size: 13px;
+//   font-weight: 700;
+//   color: #336699;
+// }
+
+// .text-grey {
+//   font-size: 13px;
+//   font-weight: 700;
+//   color: #5d5d5d;
+// }
+
+// .corner {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+// }
+
+// tr {
+//   height: 20px;
+//   overflow: hidden;
+// }

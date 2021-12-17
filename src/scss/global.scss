@@ -1,0 +1,22 @@
+@import './colors';
+@import './buttons';
+@import './table';
+
+body {
+	// font-feature-settings: 'tnum' on, 'lnum' on;
+	font-style: normal;
+	font-stretch: normal;
+	font-feature-settings: 'liga', 'kern';
+}
+
+.v-application {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	a { text-decoration: none; }
+}
+
+ul {
+	list-style: none;
+	padding: 0 !important;
+}
