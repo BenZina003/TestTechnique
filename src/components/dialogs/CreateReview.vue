@@ -109,14 +109,17 @@ export default {
     },
   },
 
-  watch: {
+   watch: {
     selectedType: {
       deep: true,
-      handler: function() {
+      handler: function () {
         this.disabled = false;
-        this.selectedType.fields.forEach(element => {
-          if (element.required) {
-            this.disabled = element.value === undefined || element.value === '';
+        this.selectedType.fields.forEach((element) => {
+          if (
+            element.required &&
+            (element.value === undefined || element.value === "")
+          ) {
+            this.disabled = true;
           }
         });
       },
